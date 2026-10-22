@@ -1,7 +1,15 @@
-# すいすい矢印
+# Arrow Studio
 
-3つの点をドラッグして形を整える、日本語のSVG矢印エディタです。
+A small, browser-based SVG arrow editor. Drag the start, control, and end points of a quadratic Bezier curve to shape your arrow.
 
-始点は点、終点は太く。太さ・色・先細り・矢じりを調整し、透明背景のSVGとしてコピー・保存できます。
+- Fine start, bold finish, with an optional arrowhead.
+- Adjustable thickness, color, taper profile, taper strength, and arrowhead size.
+- Brush and droplet styles, shape presets, and keyboard controls.
+- Copy or download a transparent SVG without editing guides.
+- Edits are saved locally in your browser; they do not sync between devices.
 
-index.html 単体で動作します。編集内容は各ブラウザ内に保存されます。
+Open index.html in a browser. No installation or build step is required.
+
+For keyboard editing, select a point and use the arrow keys. Hold Shift to move 10 units at a time.
+
+Default color: #ffa90e.
